@@ -18,11 +18,19 @@ sacar( )
 pagarMensal( )  
 
 requisitos
-tipo(cc ou cp)  
-qnd abrir conta: status = true   
-se abrir cc: ganha $50   
-se for cp: ganha $150   
-p/ fechar conta o saldo deve ser 0.  
-p/ depositar conta precisa estar aberta   
-p/ sacar tem que tá aberta e tem q ter saldo para fazer o saque  
-mensalidade cc paga 12$  cp paga 20$  
+
+tipo(cc ou cp)
+
+qnd abrir conta: status = true
+
+se abrir cc: ganha $50
+
+se for cp: ganha $150
+
+p/ fechar conta o saldo deve ser 0.
+
+p/ depositar conta precisa estar aberta
+
+p/ sacar tem que tá aberta e tem q ter saldo para fazer o saque
+
+mensalidade cc paga 12$  cp paga 20$
