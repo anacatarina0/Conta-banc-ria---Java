@@ -17,8 +17,7 @@ depositar( )
 sacar( )   
 pagarMensal( )  
 
-requisitos
-
+requisitos  
 tipo(cc ou cp)
 
 qnd abrir conta: status = true
