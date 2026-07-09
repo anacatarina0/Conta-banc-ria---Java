@@ -10,15 +10,15 @@ tipo          fecharConta()
 dono          depoistar()
 saldo         sacar()
 status        pagarMensal()
-
- requisitos
-
+----------------
+   requisitos
+----------------
 tipo(cc ou cp)
 qnd abrir conta: status = true
 se abrir cc: ganha $50
 se for cp: ganha $150
-p/ fechar conta o saldo deve ser 0.
-p/ depositar conta precisa estar aberta
-p/ sacar tem que tá aberta e tem q ter saldo para fazer o saque
-mensalidade cc paga 12$  cp paga 20$
+para fechar conta o saldo deve ser 0.
+para depositar conta precisa estar aberta
+para sacar tem que tá aberta e tem q ter saldo para fazer o saque
+mensalidade cc paga 12 reais  cp paga 20 reais
 
