@@ -3,14 +3,21 @@ Projeto conta bancária curso POO Gustavo Guanabara feito em Java puro no bloco 
 
 
 	ContaBancaria
-atributos     metodos 
-nº da conta   abrir conta()
-tipo          fecharConta()
-dono          depoistar()
-saldo         sacar()
-status        pagarMensal()
+*atributos*     
+nº da conta   
+tipo          
+dono         
+saldo         
+status  
 
-   requisitos
+*metodos*
+abrir conta()
+fecharConta()
+depoistar()
+sacar()
+pagarMensal()
+
+*requisitos*
 tipo(cc ou cp)
 qnd abrir conta: status = true
 se abrir cc: ganha $50
